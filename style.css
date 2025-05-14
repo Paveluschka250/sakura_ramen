@@ -25,7 +25,7 @@ h2 {
   margin: 0;
 }
 
-h3 {
+h3, th {
   font-family: "economica", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 56px;
@@ -34,6 +34,12 @@ h3 {
 
 p {
   font-size: 24px;
+}
+
+td {
+  font-weight: bold;
+  font-size: 32px;
+  color: #675E54;
 }
 
 header {
@@ -121,5 +127,55 @@ header p {
 
 .order .dishes .noodle img, .broth img, .toppings img {
   width: 128px;
+}
+
+.menu {
+  background: url(assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg) no-repeat center / cover;
+  padding: 120px 160px;
+}
+
+.menu h2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 64px;
+}
+
+.menu article {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.menu article div {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.menu article .reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.menu article div img {
+  width: 352px;
+  height: 352px;
+}
+
+.menu article div div table thead {
+  display: flex;
+  padding-bottom: 16px;
+}
+
+.menu article div div table tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menu article div div table tbody tr {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
 }
 
