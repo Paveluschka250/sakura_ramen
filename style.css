@@ -8,6 +8,10 @@
   src: url("assets/fonts/economica.ttf") format("truetype");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "raleway", Arial, Helvetica, sans-serif;
@@ -25,7 +29,8 @@ h2 {
   margin: 0;
 }
 
-h3, th {
+h3,
+th {
   font-family: "economica", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 56px;
@@ -34,12 +39,13 @@ h3, th {
 
 p {
   font-size: 24px;
+  margin: 0;
 }
 
 td {
   font-weight: bold;
   font-size: 32px;
-  color: #675E54;
+  color: #675e54;
 }
 
 header {
@@ -106,9 +112,9 @@ header p {
   gap: 16px;
 }
 
-.order h2 { 
+.order h2 {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .order .dishes {
@@ -116,7 +122,9 @@ header p {
   justify-content: space-between;
 }
 
-.order .dishes .noodle, .broth, .toppings {
+.order .dishes .noodle,
+.broth,
+.toppings {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,12 +133,15 @@ header p {
   gap: 16px;
 }
 
-.order .dishes .noodle img, .broth img, .toppings img {
+.order .dishes .noodle img,
+.broth img,
+.toppings img {
   width: 128px;
 }
 
 .menu {
-  background: url(assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg) no-repeat center / cover;
+  background: url(assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg)
+    no-repeat center / cover;
   padding: 120px 160px;
 }
 
@@ -179,3 +190,53 @@ header p {
   gap: 100px;
 }
 
+.location {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location h2 {
+  margin-bottom: 8px;
+}
+
+.location div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.location div img {
+  width: 32px;
+  height: 32px;
+}
+
+.location iframe {
+  width: 100%;
+  height: 500px;
+  margin-top: 64px;
+}
+
+footer {
+  height: 144px;
+  background-color: #0a141e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 160px;
+}
+
+footer img {
+  height: 44px;
+}
+
+footer div {
+  display: flex;
+  gap: 24px;
+}
+
+footer div a img {
+  width: 40px;
+  height: 40px;
+}
