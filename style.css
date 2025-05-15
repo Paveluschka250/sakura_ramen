@@ -77,6 +77,12 @@ header .navigation nav a {
   text-decoration: none;
   font-family: "raleway", Arial, Helvetica, sans-serif;
   font-size: 24px;
+  transition: 0.3s ease-in-out, 0.3s ease-in-out;
+}
+
+header .navigation nav a:hover {
+  color: #ff5a5f;
+  transform: scale(1.2);
 }
 
 header .navigation nav .number {
@@ -241,4 +247,9 @@ footer div {
 footer div a img {
   width: 40px;
   height: 40px;
+  transition: transform 0.6s ease;
+}
+
+footer div a img:hover {
+  transform: scale(1.2) rotate(360deg);
 }
