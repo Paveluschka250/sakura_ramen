@@ -85,7 +85,7 @@ header .navigation nav a:hover {
   transform: scale(1.2);
 }
 
-header .navigation nav .number {
+header .navigation nav a:nth-of-type(4) {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -95,7 +95,7 @@ header .navigation nav .number {
   padding: 8px;
 }
 
-header .navigation nav .number img {
+header .navigation nav a:nth-of-type(4) img {
   width: 32px;
   height: 32px;
 }
@@ -171,8 +171,7 @@ header p {
   align-items: center;
 }
 
-.menu article .reverse {
-  display: flex;
+.menu article div:nth-of-type(2) {
   flex-direction: row-reverse;
 }
 
