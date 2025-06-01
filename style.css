@@ -109,7 +109,7 @@ nav div a:nth-of-type(4) img {
 }
 
 .aot {
-  background: url(assets/img/1_hero/JPG/hero_bg.jpg) no-repeat center / cover;
+  background: url(assets/img/1_hero/hero_bg.jpg) no-repeat center / cover;
   height: 100vh;
   padding: 0px 160px;
   display: flex;
@@ -166,7 +166,7 @@ nav div a:nth-of-type(4) img {
 }
 
 .menu {
-  background: url(assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg)
+  background: url(assets/img/3_section_our_menu/section_our_menu_bg.jpg)
     no-repeat center / cover;
   padding: 120px 160px;
 }
